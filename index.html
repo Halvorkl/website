@@ -1,34 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Klepsvik Electro Solutions</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #ffffff;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-        img {
-            max-width: 500px; /* Adjust size as needed */
-            height: auto;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Klepsvik Electro Solutions</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      text-align: center;
+      color: #333;
+    }
+
+    header {
+      padding: 20px;
+    }
+
+    header img {
+      max-width: 300px;
+      height: auto;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        display: flex;
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 10px 0;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div>
-        <img src="KES_logo.png" alt="Kes Logo">
-        <h1>Klepsvik-solutions.com under maintenance</h1>
-        <p>Featuring: Eskil Lamo Martinsen, SMA soldering prodigy, antenna specialist, and labview expert!</p>
-    </div>
+
+  <header>
+    <img src="KES_logo.png" alt="KES Logo" />
+  </header>
+
+  <nav>
+    <a href="experience.html">Experience and Background</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <main>
+    <h1>Klepsvik-solutions.com under maintenance</h1>
+    <p>Featuring: Eskil Lamo Martinsen, SMA soldering prodigy, antenna specialist, and LabVIEW expert!</p>
+  </main>
+
 </body>
 </html>
